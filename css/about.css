@@ -1,0 +1,117 @@
+/* ABOUT SECTION TWO START*/
+.about-sec-one{
+    background-image: linear-gradient(#09090ecc, #09090ecc), url(../images/about-images/about.jpg);
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+/* ABOUT SECTION TWO START*/
+.about-sec-two {
+    background-color: #09090e;
+    padding: 120px 3%;
+    text-align: center;
+}
+
+.about-sec-two h2{
+    font-size: 80px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    padding: 10px 0 40px;
+}
+
+.about-sec-two p{
+    padding: 10px 8%;
+    text-align: justify;
+}
+
+
+/* ABOUT-SECTION SIX START */
+.about-sec-six{
+    background-image: linear-gradient(#09090ecc, #09090ecc), url(../images/about-images/about-sec-6.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+/* ABOUT SECTION SEVEN START*/
+.contact-sec-seven{
+    padding: 120px 3%;
+    text-align: center;
+}
+
+.contact-sec7-title h2 {
+    font-size: 60px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    padding: 10px 0 100px;
+}
+
+.contact-sec7-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contact-sec7-col {
+    flex-basis:32%;
+    border: 2px solid #ffff00;
+    padding: 30px;
+    border-radius: 10px;
+    
+}
+
+.contact-sec7-image{
+    overflow: hidden;
+    width: 150px;
+    height: 150px;
+    border: 3px solid #ffff00;
+    border-radius: 50%;
+    transition: 0.5s ease 0.1s;
+    margin: -110px auto;
+}
+
+.contact-sec7-image img{
+    width: 100%;
+    vertical-align: middle;
+    transition: 0.5s ease 0.1s;
+}
+
+.contact-sec7-image img:hover {
+    scale: 1.2;
+}
+
+.contact-sec7-contain {
+    margin-top: 130px;
+}
+
+.contact-sec7-contain h3 {
+    font-size: 30px;
+    letter-spacing: 2px;
+    margin: 20px 0;
+    cursor: pointer;
+    transition: 0.5s ease 0.1s;
+}
+
+.contact-sec7-contain h3:hover {
+    color: #ff0000;
+}
+
+.contact-sec7-degi {
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin-bottom: 30px;
+}
+

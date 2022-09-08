@@ -1,0 +1,111 @@
+/* CONTACT SECTION ONE START */
+.contact-sec-one{
+    background-image: linear-gradient(#09090ecc, #09090ecc), url(../images/contact-images/contact.jpg);
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+/* CONTACT SECTION TWO START */
+.contact-sec2-contain {
+    display: flex;
+}
+
+.contact-sec2-map {
+    height: 80vh;
+    width: 100%;
+    margin: 110px 8%;
+    border-radius: 15px;
+    border: 20px solid #f8f8f6;
+    filter: invert(100%);
+}
+
+
+/* CONTACT SECTION THREE START */
+.contact-sec-three{
+    border-top: 1px solid #000000;
+    background-color: #09090e;
+    padding: 120px 8%;
+}
+
+.contact-sec3-heding {
+    text-align: center;
+    font-size: 30px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin-bottom: 40px;
+}
+
+.contact-sec3-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.contact-sec3-col {
+    flex-basis: 32%;
+    margin-bottom: 40px;
+}
+
+.contact-sec3-title {
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.contact-sec3-form input, select {
+    margin-top: 10px;
+    padding: 0 15px;
+    width: 100%;
+    background-color: #bcbadd;
+    box-shadow: #e6e6e640 0px 30px 60px -12px inset, #afafaf4d 0px 18px 36px -18px inset;
+    border: none;
+    border-radius: 6px;
+    height: 50px;;
+    letter-spacing: 1px;
+}
+
+.contact-sec3-textarea textarea {
+    width: 100%;
+    height: 200px;
+    background-color: #bcbadd;
+    box-shadow: #e6e6e640 0px 30px 60px -12px inset, #afafaf4d 0px 18px 36px -18px inset;
+    border-radius: 6px;
+    border: none;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    padding: 10px 15px;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 1px;
+}
+
+.contact-sec3-buttom {
+    margin-top: 100px;
+    display: flex;
+}
+
+
+.contact-sec3-bleft {
+    flex-basis: 32%;
+    display: flex;
+    justify-content: center;
+}
+
+.contact-sec3-bleft i{
+    color: #ffff00;
+    font-size: 25px;
+    margin-right: 30px;
+}
+
+.contact-sec3-name {
+    font-size: 18px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
