@@ -756,6 +756,7 @@ input:focus, select:focus, textarea:focus{
 .secf-contact-hilight {
     color: #ffff0099;
     cursor: pointer;
+    font-weight: lighter;
 }
 
 .sec-footer p {
